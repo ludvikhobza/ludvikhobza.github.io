@@ -1,0 +1,17 @@
+{
+  "lang": "en-gb",
+  "name": "Currency exchange app",
+  "short_name": "Currency converter",
+  "description": "A basic currency converter application that can converts gbp to czk and vica versa.",
+  "start_url": "./",
+  "background_color": "#2f3d58",
+  "theme_color": "#2f3d58",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+      {
+          "src": "./icon512.svg",
+          "sizes": "512x512"
+      }
+  ]
+}

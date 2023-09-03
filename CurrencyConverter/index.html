@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="./converter.css">
+    <link rel="manifest" href="./manifest.json">
+    <title>Currency converter</title>
+</head>
+<body>
+
+<div id="converter">
+    <label for="input-czk">Czk</label>
+    <input type="number" id="input-czk" name="input-czk" value="0"/>
+
+    <label for="input-gbp">Gbp</label>
+    <input type="number" id="input-gbp" name="input-gbp" value="0">
+</div>
+<script src="./converter.js"></script>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js', {scope: './'});
+    }
+</script>
+</body>
+</html>
